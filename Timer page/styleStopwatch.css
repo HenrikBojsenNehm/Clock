@@ -1,0 +1,40 @@
+.stopwatch{
+    position: absolute;
+    height: 80px;
+    width: 550px;
+    margin-top: 200px; 
+    margin-left: 33%;
+}
+  
+#stimer{
+    margin-top: -20px;
+    font-size: 80px;
+}
+  
+.sbuttons{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -50px;
+    font-size:  40px;
+}
+  
+#sss{
+    margin-left: 28%;
+}
+  
+#sp{
+    margin-left: 48%; 
+}
+  
+.extraHours{
+    overflow: hidden;
+    width: 99vw;
+    margin-left: 0.5%;
+    margin-top: 400px;
+}
+  
+#eh{
+    text-align: center;
+    font-size: 35px;
+}
+  

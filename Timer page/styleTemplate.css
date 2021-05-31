@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: url('https://www.assettocorsa.net/wp-content/uploads/2015/11/placeholder-slider.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    user-select: none;
+  }
+
+div{
+  color: #f00;
+}
+
+.title{
+  text-align: center;
+}
+
+.nav {
+  justify-content: center;
+  float: center;
+  top: 0; right: 0; left: 0; bottom: 0;
+  overflow-y: hidden;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+a {
+  float: center;
+}
+
+a {
+  color: #f00;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover:not(.active) {
+  color: #f66;
+  cursor: pointer;
+}
+
+a.current{
+  color: #e44;
+}

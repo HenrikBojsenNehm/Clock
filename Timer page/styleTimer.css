@@ -1,0 +1,51 @@
+.timer{
+    position: absolute;
+    height: 100px;
+    width: 550px;
+    margin-top: 200px; 
+    margin-left: 38.5%;  
+}
+  
+.tbuttons{
+    position: absolute;
+    margin-left: 29.5%;
+    margin-top: -60px;
+    font-size:  40px;  
+}
+  
+#thadd{
+    margin-left: 3.5%;
+}
+  
+#tsadd{
+    margin-left: 55.5%;
+}
+  
+#ttimer{
+    margin-top: -20px;
+    font-size: 80px;
+}
+ 
+#thsub{
+    margin-left: 3.5%;
+    margin-top: -90px;
+}
+  
+#tmsub{
+    margin-top: -90px;
+}
+  
+#tssub{
+    margin-left: 55.5%;
+    margin-top: -90px;
+}
+  
+#tss{
+    margin-left: 14%;
+    margin-top: -40px;
+}
+  
+#tp{
+    margin-left: 34%;
+    margin-top: -40px
+}

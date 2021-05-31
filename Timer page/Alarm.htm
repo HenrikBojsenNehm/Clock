@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <title>Alarm</title>
+      <link rel="stylesheet" href="styleTemplate.css">
+      <link rel="stylesheet" href="styleAlarm.css">
+
+      <div class="title">
+          <h1>Alarm</h1>
+          <br>
+      </div>
+      <div class="nav">
+        <ul>
+            <a href="Ur.htm">Ur</a>
+            <a href="Timer.htm">Timer</a>
+            <a href="Stopur.htm">Stopur</a>
+            <a class="current" href="Alarm.htm">Alarm</a>
+        </ul>
+      </div>
+      <div class="atimer">
+        <a class="abuttons" id="muteAll">Total mute</a>
+        <a class="abuttons" id="ahadd">+</a>
+        <a class="abuttons" id="amadd">+</a>
+        <div style="height: 100px;">
+          <p class="atime" id="ahour">00</p>
+          <p class="atime" id="acol"> : </p>
+          <p class="atime" id="amin">00</p>
+        </div>
+        <a class="abuttons" id="ahsub">-</a>
+        <a class="abuttons" id="amsub">-</a>
+        <a class="abuttons" id="aa">Tilføj alarm</a>
+        <a class="abuttons" id="aco">Slet siste alarm</a>
+        <a class="abuttons" id="aca">Slet alle alarmer</a>
+        <a class="abuttons" id="mute">Mute</a>
+        <p id="advarsel">*(Max 10 alarmer)*</p>
+      </div>
+      <div class="tracker">
+        <p id="boxT">Alarmer</p>
+        <p class="at" id="a1"></p>
+        <p class="at" id="a2"></p>
+        <p class="at" id="a3"></p>
+        <p class="at" id="a4"></p>
+        <p class="at" id="a5"></p>
+        <p class="at" id="a6"></p>
+        <p class="at" id="a7"></p>
+        <p class="at" id="a8"></p>
+        <p class="at" id="a9"></p>
+        <p class="at" id="a10"></p>
+      </div>
+      <script src="alarm.js"></script>
+  </body>
+  </html>
